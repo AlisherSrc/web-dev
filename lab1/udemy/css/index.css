@@ -1,0 +1,12 @@
+/* Style an image */
+img{
+    border: 5px dashed orange;
+}
+/* Style the Font */
+.udacity-text {
+    font-family:Helvetica, Arial, sans-serif;
+    color:#8001ff;
+    text-transform:uppercase;
+    text-decoration:underline;
+    font-size:60px;
+}
