@@ -1,0 +1,64 @@
+body{
+    background-color: aliceblue;
+}
+
+content{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.phones{
+
+}
+
+.phone{
+    height: 600px;
+
+}
+
+.reg{
+    height: 600px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* This adjusting items on the main axis */
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.log-in{
+    background-color: white;
+    height: 430px;
+    width: 350px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.sign-up{
+    background-color: white;
+    height: 65px;
+    width: 350px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.get-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-icons{
+    width: 115px;
+    height: 60px;
+    
+}
+
+.microsoft{
+    height: 39px;
+}
+
+.googleplay{
+    width: 155px;
+}
