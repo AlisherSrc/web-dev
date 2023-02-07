@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 header{
     display: flex;
@@ -21,6 +22,46 @@ header{
     width: 14px;
 }
 
+
+.nav-items ul :hover, .nav-items a:hover{
+    display: inline-block;
+    color: rgb(137, 137, 137);
+}
+
+.icons:hover{
+    animation-duration: 100ms;
+    animation-name: zoom-out;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-delay: 0s;
+}
+
+.icons:hover{
+    transform: scale(1.5);
+}
+
+@keyframes zoom-out{
+    0%{
+        transform: scale(1.1);
+    }
+
+    25%{
+        transform: scale(1.2);
+    }
+
+    50%{
+        transform: scale(1.3);
+    }
+
+    75%{
+        transform: scale(1.4);
+    }
+
+    100%{
+        transform: scale(1.5);
+    }
+}
+
 .nav-items ul li p{
     display: inline-block;
 }
@@ -33,11 +74,6 @@ header{
 .nav-items ul, .nav-items a{
     display: inline-block;
     color: rgb(210,210,210);
-}
-
-.nav-items ul :hover, .nav-items a:hover{
-    display: inline-block;
-    color: rgb(137, 137, 137);
 }
 
 .nav-items p{
@@ -85,11 +121,13 @@ header{
     margin-bottom: 20px;
 }
 
-.other-box{
-
+.other-box a {
+    font-weight: 550;
 }
 
 nav{
+    /* margin-top: 60px;
+    position: fixed; */
     display: flex;
     align-items: center;
     background-color: white;
@@ -111,3 +149,86 @@ nav{
     margin-top: 35px;
 }
 
+
+.version-1p{
+    background-color: transparent;
+    border: none;
+}
+
+.version-6p{
+    background-color: black;
+    color:white;
+    border-radius: 1px;
+}
+
+.main-button{
+    width: 200px;
+    height: 40px;
+    /* padding-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* margin-bottom: 30px; */
+}
+
+.main-button img{
+    width: 20px;
+    /* padding-top: 10px; */
+}
+
+.buttons{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 20px;
+}
+
+
+.learn-more img{
+    display: inline-block;
+
+    margin: 0;
+    padding: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.learn-more{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    /* max-width: 300px; */
+    height: 30px;
+}
+
+.learn-more:hover{
+    width: 110px;
+    animation-name: right-go;
+    animation-duration: 100ms;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+}
+
+@keyframes right-go{
+    0%{
+        width: 103px;
+    }
+
+    50%{
+        width: 107px;
+    }
+
+    100%{
+        width: 110px;
+    }
+}
+
+a:link, a:visited{
+    color:rgb(77, 77, 204);
+}
