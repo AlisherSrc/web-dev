@@ -32,6 +32,8 @@ content{
     align-items: center;
     /* justify-content: space-around; */
     min-height: 250px;
+    min-width: 400px;
+    flex-grow: 0;
     height: auto;
     margin-top: 150px;
 }
@@ -41,10 +43,28 @@ content{
     margin-bottom: 30px;
 }
 
-.inputText{
+.input-text{
     margin-bottom: 40px;
 }
 
 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     list-style: none;
+    width: 100%;
+}
+
+.trash-icon{
+    width: 30px;
+    height: 40px;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }

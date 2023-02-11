@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>To Do list</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <p>ToDo List</p>
-            </nav>
-        </header>
-        <content>
-            <div class="toDo">
-                <h1>ToDo List</h1>
-                
-                <input class="inputText" type="text" onchange="createTask()">
-                <ul id="taskList">
-                    <li>First Task</li>
-                </ul>
-            </div>
-        </content>
-        <footer>
 
-        </footer>
-        <script src="script.js"/>
-    </body>
+<head>
+    <title>To Do list</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p>ToDo List</p>
+        </nav>
+    </header>
+    <content>
+        <div class="toDo">
+            <h1>ToDo List</h1>
+
+            <input id="input-text" type="text" onchange="createTask()">
+            <ul id="task-list">
+                <div class="list-item">
+                    <input type="checkbox">
+                    <li>First Task</li>
+                    <img class="trash-icon" src="https://cdn-icons-png.flaticon.com/512/1869/1869668.png">
+                </div>
+            </ul>
+        </div>
+    </content>
+    <footer>
+
+    </footer>
+    <script src="script.js" />
+</body>
+
 </html>
