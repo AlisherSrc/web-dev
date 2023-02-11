@@ -13,7 +13,8 @@ const createTask = () =>{
     let checkbox = document.createElement('input'); //creating input for checkbox
     checkbox.setAttribute("type","checkbox"); // setting attribute to make it chackbox
 
-    
+    let a = document.createElement('a');
+
 
     let img = document.createElement('img'); // creating img
     img.classList.add("trash-icon");
@@ -26,3 +27,16 @@ const createTask = () =>{
     document.getElementById('task-list').appendChild(li);
 }
 
+const findTask = () => {
+
+}
+
+const deleteTask = () => {
+    list = document.getElementById('task-list').children;
+    
+    for(const child of list){
+        console.log(child);
+    }
+
+    document.activeElement.id
+}

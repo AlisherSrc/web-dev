@@ -68,3 +68,13 @@ ul{
     border-radius: 5px;
     margin-bottom: 5px;
 }
+
+.trash{
+    background-color: transparent;
+    border: none;
+}
+
+.trash:hover{
+    cursor: pointer;
+}
+
