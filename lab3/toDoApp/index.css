@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    background-color: rgb(40, 23, 23);
+    color: aliceblue;
+    
+}
+/* 
+nav p{
+    background-color: transparent;
+    box-shadow: 1px 1px 10px 1px #0ff;
+} */
+
+content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toDo{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    min-height: 250px;
+    height: auto;
+    margin-top: 150px;
+}
+
+.toDo h1{
+    align-self: flex-start;
+    margin-bottom: 30px;
+}
+
+.inputText{
+    margin-bottom: 40px;
+}
+
+ul{
+    list-style: none;
+}
