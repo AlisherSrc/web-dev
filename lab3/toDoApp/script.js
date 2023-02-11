@@ -3,20 +3,26 @@ const alertHello = () =>{
 }
 
 const createTask = () =>{
-    let taskName = document.getElementById("inputText").value;
+    let taskName = document.getElementById("input-text").value; // obtaining text value
     console.log(taskName);
-    let listItem = document.createElement('div'); // createing div itself
-    listItem.classList.add("list-item");
 
-    let textInput = document.createElement('input'); //creating input
-    textInput.setAttribute("type","checkbox");
+    let li = document.createElement('li'); // creating list itself
 
-    let li = document.createElement('li');
-    li.appendChild(document.createTextNode(taskName));
+    li.classList.add("list-item"); //setting class to the list item
 
-    let img = document.createElement('img');
+    let checkbox = document.createElement('input'); //creating input for checkbox
+    checkbox.setAttribute("type","checkbox"); // setting attribute to make it chackbox
+
+    
+
+    let img = document.createElement('img'); // creating img
     img.classList.add("trash-icon");
+    img.setAttribute("src","https://cdn-icons-png.flaticon.com/512/1869/1869668.png");
 
-    document.getElementById('taskList').appendChild(listItem);
+    li.appendChild(checkbox);
+    li.appendChild(document.createTextNode(taskName));
+    li.appendChild(img);
+
+    document.getElementById('task-list').appendChild(li);
 }
 
