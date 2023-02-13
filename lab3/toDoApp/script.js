@@ -12,6 +12,11 @@ const alertHello = () =>{
 const createTask = () =>{
     let taskName = document.getElementById("input-text").value; // obtaining text value
 
+    console.log(taskName);
+    if (taskName.trim().length === 0){
+        return;
+    }
+
     let li = document.createElement('li'); // creating list itself
 
     li.classList.add("list-item"); //setting class to the list item
@@ -48,3 +53,13 @@ const deleteTask = () => {
         }
     }
 }
+
+const editStyle = () => {
+    let parent = document.activeElement.parentNode;
+    if(document.activeElement.checked){
+        parent.style.backgroundColor = "green";
+    }else{
+        parent.style.backgroundColor = "white";
+    }
+}
+
