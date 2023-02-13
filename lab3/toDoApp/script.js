@@ -23,7 +23,8 @@ const createTask = () =>{
 
     let checkbox = document.createElement('input'); //creating input for checkbox
     checkbox.setAttribute("type","checkbox"); // setting attribute to make it chackbox
-
+    checkbox.setAttribute("onclick", "editStyle()");
+    
     let img = document.createElement('img'); // creating img
     img.classList.add("trash-icon"); 
     img.setAttribute("src","https://cdn-icons-png.flaticon.com/512/1869/1869668.png");
