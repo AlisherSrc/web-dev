@@ -3,14 +3,21 @@
     <img src="{{item.images[0] + item.imagesNumber + '.jpg'}}">
     <div class="info">
       <div class="namedesc">
-        <h2 class="name">{{item.name}}</h2>
-        <p class="description">{{item.description}}</p>
+        <h2 class="name" [title]="item.name + ' details'">{{item.name}}</h2>
+        <p class="description" *ngIf="item.description">Description: {{item.description}}</p>
+
+        <button class="share-btn" (click)="share()">Share</button>
+<!-- [product] -->
+        <app-product-alerts [product]="item"></app-product-alerts>
+
       </div>
+
       <div class="cost-raiting">
         <p class="cost">{{item.cost}} т.</p>
         <p class="rating">{{item.rating}}</p>
+
         <div class="stars">
-          <span *ngFor="let i = index in range(5)">{{i}}</span>
+          <span *ngFor="let star of stars" [class.checked]="item.rating >= star" class="fa fa-star"></span>
 
         </div>
       </div>

@@ -52,3 +52,9 @@ img{
 .checked{
   color:yellow;
 }
+
+.share-btn{
+  width: 100px;
+  height: 30px;
+  margin-top: 5em;
+}

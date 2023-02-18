@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 // import {Item} from "./item-module.module";
 
-interface Item {
+export interface Item {
   id: number,
   name: string,
   description: string,
@@ -35,4 +35,7 @@ export class AppProductListComponent {
 
   stars:number[] = [1,2,3,4,5]
 
+  share(){
+    console.log("sharing!")
+  }
 }
