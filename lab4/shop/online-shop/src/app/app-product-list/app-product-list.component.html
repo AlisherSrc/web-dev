@@ -1,5 +1,19 @@
 <ul>
-  <li *ngFor="let item of itemsList">
-    {{item.name}}
+  <li *ngFor="let item of itemsList" class="item">
+    <img src="{{item.images[0] + item.imagesNumber + '.jpg'}}">
+    <div class="info">
+      <div class="namedesc">
+        <h2 class="name">{{item.name}}</h2>
+        <p class="description">{{item.description}}</p>
+      </div>
+      <div class="cost-raiting">
+        <p class="cost">{{item.cost}} т.</p>
+        <p class="rating">{{item.rating}}</p>
+        <div class="stars">
+          <span *ngFor="let i = index in range(5)">{{i}}</span>
+
+        </div>
+      </div>
+    </div>
   </li>
 </ul>
