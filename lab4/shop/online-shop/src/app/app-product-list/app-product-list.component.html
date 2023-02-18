@@ -8,17 +8,14 @@
 
         <button class="share-btn" (click)="share()">Share</button>
 <!-- [product] -->
-        <app-product-alerts [product]="item"></app-product-alerts>
+        <app-product-alerts [product]="item" class="notify-btn"></app-product-alerts>
 
       </div>
 
       <div class="cost-raiting">
         <p class="cost">{{item.cost}} т.</p>
-        <p class="rating">{{item.rating}}</p>
-
-        <div class="stars">
+        <div class="rating">
           <span *ngFor="let star of stars" [class.checked]="item.rating >= star" class="fa fa-star"></span>
-
         </div>
       </div>
     </div>

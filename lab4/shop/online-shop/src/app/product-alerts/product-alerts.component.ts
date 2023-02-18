@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter} from '@angular/core';
 import {Item} from './../app-product-list/app-product-list.component';
 
 @Component({
@@ -7,5 +7,5 @@ import {Item} from './../app-product-list/app-product-list.component';
   styleUrls: ['./product-alerts.component.css']
 })
 export class ProductAlertsComponent {
-  @Input() product!:Item; // what is !:
+  @Input() product!:Item;
 }

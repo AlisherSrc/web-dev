@@ -1,8 +1,9 @@
 img{
-  width: 130px;
+  width: 150px;
   height: auto;
   max-height: 300px;
   padding: 30px;
+  /* box-shadow: 1px 1px 3px 3px; */
 }
 
 .item{
@@ -26,7 +27,7 @@ img{
 .namedesc{
   display: flex;
   flex-flow: column;
-
+  height: 100%;
 }
 
 .info{
@@ -36,7 +37,7 @@ img{
   width: 100%;
 }
 .rating{
-
+  margin-top: 20px;
 }
 
 .cost-raiting{
@@ -56,5 +57,9 @@ img{
 .share-btn{
   width: 100px;
   height: 30px;
-  margin-top: 5em;
+  margin-top: 4em;
+}
+
+.notify-btn{
+  margin-top: 10px;
 }
