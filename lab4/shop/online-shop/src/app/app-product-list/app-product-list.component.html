@@ -3,12 +3,18 @@
     <img src="{{item.images[0] + item.imagesNumber + '.jpg'}}">
     <div class="info">
       <div class="namedesc">
-        <h2 class="name" [title]="item.name + ' details'">{{item.name}}</h2>
+        <h2 class="name">
+          <a [title]="item.name + ' details'"
+          [routerLink]="['/items',item.id]"
+          >
+             {{item.name}}
+          </a>
+        </h2>
         <p class="description" *ngIf="item.description">Description: {{item.description}}</p>
 
         <button class="share-btn" (click)="share()">Share</button>
 <!-- [product] -->
-        <app-product-alerts [product]="item" class="notify-btn"></app-product-alerts>
+        <app-product-alerts [product]="item" (notify)="onNotify(item.name)" class="notify-btn"></app-product-alerts>
 
       </div>
 
