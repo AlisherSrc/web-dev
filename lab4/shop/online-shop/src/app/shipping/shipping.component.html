@@ -1,0 +1,9 @@
+<p>shipping prices</p>
+
+<div *ngFor="let shipping in shippingCosts | async">
+  <span>{{shipping.type}}</span>
+  <span>{{shipping.price | currency}}</span>
+</div>
+<!-- The async pipe returns the latest value from a stream of data and continues to do so for the
+  life of a given component. When Angular destroys that component, the async pipe automatically stops.
+   For detailed information about the async pipe, see the AsyncPipe API documentation. -->
