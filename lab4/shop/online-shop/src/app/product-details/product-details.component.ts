@@ -7,7 +7,7 @@ import { Item, itemsList} from '../app-product-list/products';
   templateUrl: './product-details.component.html',
   styleUrls: ['./product-details.component.css']
 })
-export class ProductDetailsComponent {
+export class ProductDetailsComponent implements OnInit{
   item : Item|undefined; // That item that needs to be detailed in the new route
 
   constructor(private route: ActivatedRoute){

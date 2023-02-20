@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav_bar.component';
 import { AppProductListComponent } from './app-product-list/app-product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
-import { RouterModule } from '@angular/router';
 import {ProductDetailsComponent} from './product-details/product-details.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -23,8 +23,8 @@ import {ProductDetailsComponent} from './product-details/product-details.compone
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      {path: '', component: AppProductListComponent},
-      {path: 'items/:productId', component: ProductDetailsComponent}
+      {path:'', component: AppProductListComponent},
+      {path:'products/:productId',component: ProductDetailsComponent},
     ])
   ],
   providers: [],
