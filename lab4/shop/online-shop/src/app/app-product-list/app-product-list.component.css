@@ -1,6 +1,6 @@
 img{
   width: 150px;
-  height: auto;
+  height: 250px;
   max-height: 300px;
   padding: 30px;
   /* box-shadow: 1px 1px 3px 3px; */
@@ -62,4 +62,23 @@ img{
 
 .notify-btn{
   margin-top: 10px;
+}
+
+.imageBox{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.img-btn{
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  height: 250px;
+  z-index:3;
+}
+.img-btn-l{
+  left:1em;
+}
+.img-btn-r{
+  left: 13em;
 }

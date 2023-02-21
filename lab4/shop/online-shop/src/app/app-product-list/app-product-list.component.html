@@ -1,19 +1,22 @@
 <ul>
   <li *ngFor="let item of itemsList" class="item">
-    <img src="{{item.images[0] + item.imagesNumber + '.jpg'}}">
+    <div class="imageBox">
+      <button class="img-btn img-btn-l" (click)="prevImg(item)">prev</button>
+      <img [src]="item.images[0] + item.imagesNumber + '.jpg'">
+      <button class="img-btn img-btn-r" (click)="nextImg(item)">next</button>
+    </div>
     <div class="info">
       <div class="namedesc">
         <h2 class="name">
-          <a [title]="item.name + ' details'"
-          [routerLink]="['/products',item.id]"
-          >
-             {{item.name}}
+          <a [title]="item.name + ' details'" [routerLink]="['/products',item.id]">
+            {{item.name}}
+            {{item.imagesNumber}}
           </a>
         </h2>
         <p class="description" *ngIf="item.description">Description: {{item.description}}</p>
 
         <button class="share-btn" (click)="share(item)">Share</button>
-<!-- [product] -->
+        <!-- [product] -->
         <app-product-alerts [product]="item" (notify)="onNotify(item.name)" class="notify-btn"></app-product-alerts>
 
       </div>
@@ -29,5 +32,3 @@
 </ul>
 <!-- adding focus item to share -->
 <app-share *ngIf="showShare" [item]="focusItem" (exit)="shareoff()"></app-share>
-
-

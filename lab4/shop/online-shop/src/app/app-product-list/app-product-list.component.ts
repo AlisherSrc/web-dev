@@ -1,5 +1,4 @@
-import { Component } from "@angular/core";
-// import {Item} from "./item-module.module";
+import { Component, ChangeDetectorRef } from "@angular/core";
 import { itemsList, Item } from "./products";
 
 @Component(
@@ -18,6 +17,11 @@ export class AppProductListComponent {
 
   stars:number[] = [1,2,3,4,5]
 
+
+  constructor(private cdr:ChangeDetectorRef){}
+
+
+
   share(product: Item){
     console.log("sharing!");
     this.showShare = true;
@@ -32,6 +36,26 @@ export class AppProductListComponent {
     window.alert(`We will notify you when ${productName} will be on stock!`);
   }
 
+  nextImg(item : Item){
+    const updatedItemsList = this.itemsList.map(product => {
+      if(item.id === product.id && product.imagesNumber < 3){
+        return {...product,imagesNumber:product.imagesNumber + 1}
+      }else{
+        return product;
+      }
+    })
+    this.itemsList = updatedItemsList;
+  }
 
+  prevImg(item : Item){
+    const updatedItemsList = this.itemsList.map(product => {
+      if(item.id === product.id && product.imagesNumber > 1){
+        return {...product,imagesNumber:product.imagesNumber - 1}
+      }else{
+        return product;
+      }
+    })
+    this.itemsList = updatedItemsList;
+  }
 
 }

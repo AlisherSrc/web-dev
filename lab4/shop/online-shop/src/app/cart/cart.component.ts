@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 import { CartService } from '../cart.service';
 import { Item } from '../app-product-list/products';
 import { FormBuilder } from '@angular/forms';
@@ -11,6 +11,7 @@ import { FormBuilder } from '@angular/forms';
 
 export class CartComponent {
 
+
   checkoutForm = this.formBuilder.group({
     name: '',
     address: ''
@@ -19,6 +20,7 @@ export class CartComponent {
   constructor(
     private cartService: CartService,
     private formBuilder: FormBuilder,
+
   ) {
 
   }
@@ -28,6 +30,7 @@ export class CartComponent {
     //Checkout of data is here
     this.cartItems = this.cartService.clearCart();
     console.warn("Your order has been submited!",this.checkoutForm.value);
+    // Why are there cart items as well?
     this.checkoutForm.reset();
   }
 }
