@@ -1,8 +1,31 @@
 .share-box{
-  width: 100%;
-  height: 10em;
-  background-color: rgb(223,223,223);
-  bottom: 1px;
+  width: 3em;
+  height: 7em;
+  background-color: rgb(37, 34, 34);
+  color:white;
+  bottom: 100px;
   /* HOW DOES IT WORK */
   position: fixed;
+
+}
+p{
+  display: inline-block;
+}
+
+
+.share-btns share-button{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-inline--fa.fa-fw{
+  font-size: 12px;
+}
+
+.sb-icon{
+  width: 10px;
+  font-size: 12px;
 }

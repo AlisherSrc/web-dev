@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Item } from '../app-product-list/products';
+
 
 @Component({
   selector: 'app-share',
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./share.component.css']
 })
 export class ShareComponent {
+  @Input() item!:Item;
 
+  constructor(){
+
+  }
 }

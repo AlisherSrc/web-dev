@@ -12,7 +12,7 @@
         </h2>
         <p class="description" *ngIf="item.description">Description: {{item.description}}</p>
 
-        <button class="share-btn" (click)="share()">Share</button>
+        <button class="share-btn" (click)="share(item)">Share</button>
 <!-- [product] -->
         <app-product-alerts [product]="item" (notify)="onNotify(item.name)" class="notify-btn"></app-product-alerts>
 
@@ -27,6 +27,7 @@
     </div>
   </li>
 </ul>
-<app-share *ngIf="showShare"></app-share>
+<!-- adding focus item to share -->
+<app-share *ngIf="showShare" [item]="focusItem"></app-share>
 
 

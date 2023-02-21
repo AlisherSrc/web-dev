@@ -14,13 +14,14 @@ import { itemsList, Item } from "./products";
 export class AppProductListComponent {
   itemsList :Item[] = itemsList;
   showShare :boolean = false;
+  focusItem !:Item; // For sharing
 
   stars:number[] = [1,2,3,4,5]
 
-  share(){
+  share(product: Item){
     console.log("sharing!");
     this.showShare = true;
-
+    this.focusItem = product;
   }
 
   onNotify(productName : string){

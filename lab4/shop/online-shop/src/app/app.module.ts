@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,9 +15,13 @@ import { ShippingComponent } from './shipping/shipping.component';
 import {ShareButtonsModule} from 'ngx-sharebuttons/buttons';
 import {ShareIconsModule} from 'ngx-sharebuttons/icons';
 import { ShareComponent } from './share/share.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
+  // schemas:[
+  //   CUSTOM_ELEMENTS_SCHEMA
+  // ],
   declarations: [
     AppComponent,
     NavBarComponent,
@@ -44,6 +48,7 @@ import { ShareComponent } from './share/share.component';
       debug:true,
     }),
     ShareIconsModule,
+    FontAwesomeModule,
 
   ],
   providers: [],
