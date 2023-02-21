@@ -16,7 +16,7 @@ import {ShareButtonsModule} from 'ngx-sharebuttons/buttons';
 import {ShareIconsModule} from 'ngx-sharebuttons/icons';
 import { ShareComponent } from './share/share.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
+import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   // schemas:[
@@ -49,7 +49,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     }),
     ShareIconsModule,
     FontAwesomeModule,
-
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
