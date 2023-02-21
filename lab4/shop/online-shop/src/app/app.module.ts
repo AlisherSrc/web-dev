@@ -12,6 +12,10 @@ import { CartComponent } from './cart/cart.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
+import {ShareButtonsModule} from 'ngx-sharebuttons/buttons';
+import {ShareIconsModule} from 'ngx-sharebuttons/icons';
+import { ShareComponent } from './share/share.component';
+
 
 @NgModule({
   declarations: [
@@ -22,6 +26,7 @@ import { ShippingComponent } from './shipping/shipping.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
+    ShareComponent,
 
   ],
 
@@ -35,6 +40,10 @@ import { ShippingComponent } from './shipping/shipping.component';
       {path:'cart',component: CartComponent},
       {path:'shipping',component:ShippingComponent}
     ]),
+    ShareButtonsModule.withConfig({
+      debug:true,
+    }),
+    ShareIconsModule,
 
   ],
   providers: [],
