@@ -23,9 +23,15 @@ export class AppProductListComponent {
     this.showShare = true;
     this.focusItem = product;
   }
+  shareoff(){
+    this.showShare = false;
+  }
+
 
   onNotify(productName : string){
     window.alert(`We will notify you when ${productName} will be on stock!`);
   }
+
+
 
 }

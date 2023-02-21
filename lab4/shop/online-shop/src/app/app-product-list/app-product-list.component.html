@@ -28,6 +28,6 @@
   </li>
 </ul>
 <!-- adding focus item to share -->
-<app-share *ngIf="showShare" [item]="focusItem"></app-share>
+<app-share *ngIf="showShare" [item]="focusItem" (exit)="shareoff()"></app-share>
 
 

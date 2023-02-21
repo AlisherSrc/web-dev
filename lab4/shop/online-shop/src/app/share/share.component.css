@@ -29,3 +29,10 @@ p{
   width: 10px;
   font-size: 12px;
 }
+
+
+.share-box button{
+  background-color: transparent;
+  border: none;
+  color:white;
+}
