@@ -1,9 +1,9 @@
 <ul>
   <li *ngFor="let item of itemsList" class="item">
     <div class="imageBox">
-      <button class="img-btn img-btn-l" (click)="prevImg(item)">prev</button>
-      <img [src]="item.images[0] + item.imagesNumber + '.jpg'">
-      <button class="img-btn img-btn-r" (click)="nextImg(item)">next</button>
+      <button class="img-btn img-btn-l" (click)="prevImg(item)"><</button>
+      <img [src]="item.images[item.imagesNumber - 1]">
+      <button class="img-btn img-btn-r" (click)="nextImg(item)">></button>
     </div>
     <div class="info">
       <div class="namedesc">

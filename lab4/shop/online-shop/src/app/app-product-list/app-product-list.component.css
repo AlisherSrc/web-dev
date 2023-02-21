@@ -72,10 +72,18 @@ img{
 .img-btn{
   position: absolute;
   display: inline-block;
-  background-color: white;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
   height: 250px;
+  width: 20px;
   z-index:3;
 }
+
+.img-btn:hover{
+  box-shadow: 0px 0px 5px 0.5px;
+}
+
 .img-btn-l{
   left:1em;
 }
