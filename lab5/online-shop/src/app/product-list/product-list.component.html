@@ -1,1 +1,5 @@
-<p>product-list works!</p>
+<ul>
+  <app-product-item [share]="share" [onNotify]="onNotify"></app-product-item>
+</ul>
+
+<app-share *ngIf="showShare" [item]="focusItem" (exit)="shareoff()"></app-share>

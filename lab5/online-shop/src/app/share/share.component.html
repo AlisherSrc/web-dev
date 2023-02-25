@@ -1,5 +1,6 @@
 <div class="share-box">
     <button (click)="exit.emit()">X</button>
+    <!-- Instead of exit.emit(), parent's method will be called-->
     <div class="share-btns">
       <share-buttons
       [theme]="'material-dark'"

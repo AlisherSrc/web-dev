@@ -1,10 +1,12 @@
 <main>
   <div class="content">
     <div class="left-side-bar">
-
+      <ul>
+        <li *ngFor="let category of categories"><a (click)="setCategory(category)">{{category.name}}</a></li>
+      </ul>
     </div>
     <div class="list-of-items">
-
+      <app-product-list></app-product-list>
     </div>
   </div>
 </main>
