@@ -1,0 +1,19 @@
+<p>shipping prices</p>
+
+<div *ngFor="let shipping of shippingCostsArray">
+  <div>
+    <p>${{returnRounded(shipping.price * 10000 - 12.8)}}</p>
+    <p>Overnight</p>
+  </div>
+  <div>
+    <p>${{returnRounded(shipping.price * 10000 - 28.8)}}</p>
+    <p>2-Day</p>
+  </div>
+  <div>
+    <p>${{returnRounded(shipping.price * 10000 - 35.8)}}</p>
+    <p>Postal</p>
+  </div>
+</div>
+<!-- The async pipe returns the latest value from a stream of data and continues to do so for the
+  life of a given component. When Angular destroys that component, the async pipe automatically stops.
+   For detailed information about the async pipe, see the AsyncPipe API documentation. -->

@@ -1,0 +1,34 @@
+<ul>
+  <li *ngFor="let item of itemsList" class="item">
+    <div class="imageBox">
+      <button class="img-btn img-btn-l" (click)="prevImg(item)"><</button>
+      <img [src]="item.images[item.imagesNumber - 1]">
+      <button class="img-btn img-btn-r" (click)="nextImg(item)">></button>
+    </div>
+    <div class="info">
+      <div class="namedesc">
+        <h2 class="name">
+          <a [title]="item.name + ' details'" [routerLink]="['/products',item.id]">
+            {{item.name}}
+            {{item.imagesNumber}}
+          </a>
+        </h2>
+        <p class="description" *ngIf="item.description">Description: {{item.description}}</p>
+
+        <button class="share-btn" (click)="share(item)">Share</button>
+        <!-- [product] -->
+        <app-product-alerts [product]="item" (notify)="onNotify(item.name)" class="notify-btn"></app-product-alerts>
+
+      </div>
+
+      <div class="cost-raiting">
+        <p class="cost">{{item.cost}} т.</p>
+        <div class="rating">
+          <span *ngFor="let star of stars" [class.checked]="item.rating >= star" class="fa fa-star"></span>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
+<!-- adding focus item to share -->
+<app-share *ngIf="showShare" [item]="focusItem" (exit)="shareoff()"></app-share>

@@ -1,0 +1,16 @@
+<div class="share-box">
+    <button (click)="exit.emit()">X</button>
+    <div class="share-btns">
+      <share-buttons
+      [theme]="'material-dark'"
+      [include]="[
+        'telegram',
+        'whatsapp'
+      ]"
+      [show]="2"
+      [url]="item.url"
+      [autoSetMeta]="false"
+      >
+      </share-buttons>
+    </div>
+</div>
