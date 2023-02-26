@@ -1,5 +1,5 @@
 <ul>
-  <app-product-item [share]="share" [onNotify]="onNotify"></app-product-item>
+  <app-product-item [share]="share" [onNotify]="onNotify" [category]="category" [itemsList]="filteredItems"></app-product-item>
 </ul>
 
 <app-share *ngIf="showShare" [item]="focusItem" (exit)="shareoff()"></app-share>

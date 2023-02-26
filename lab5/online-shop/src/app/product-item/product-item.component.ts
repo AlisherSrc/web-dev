@@ -1,5 +1,6 @@
-import { Component, ChangeDetectorRef, Input} from "@angular/core";
-import { itemsList,Item } from '../app-product-list/products';
+import { Component, ChangeDetectorRef, Input, OnChanges, SimpleChanges} from "@angular/core";
+import { Item } from '../app-product-list/products';
+import { Category } from "./categories";
 
 
 @Component({
@@ -7,16 +8,19 @@ import { itemsList,Item } from '../app-product-list/products';
   templateUrl: './product-item.component.html',
   styleUrls: ['./product-item.component.css']
 })
-export class ProductItemComponent {
+export class ProductItemComponent{
 
   @Input() share !: (item : Item) => void;
   @Input() onNotify !: (itemName : string) => void;
-
-  itemsList :Item[] = itemsList;
+  @Input() category !: Category;
+// Here goes our defined(filtered) itemsList
+  @Input() itemsList !: Item[];
 
   stars:number[] = [1,2,3,4,5]
 
-  constructor(private cdr:ChangeDetectorRef){}
+  constructor(private cdr:ChangeDetectorRef){
+
+  }
 
   nextImg(item : Item){
     const updatedItemsList = this.itemsList.map(product => {

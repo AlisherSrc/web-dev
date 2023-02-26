@@ -1,0 +1,9 @@
+Debug share btn and do it manually like url and smth
+
+Add more products
+
+Add likes
+
+Add remove functionality
+
+Connect it to firebase and store likes in it

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { itemsList,Item } from '../app-product-list/products';
 import { categories,Category } from '../product-item/categories';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

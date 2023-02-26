@@ -1,17 +1,11 @@
 <div class="share-box">
-    <button (click)="exit.emit()">X</button>
-    <!-- Instead of exit.emit(), parent's method will be called-->
-    <div class="share-btns">
-      <share-buttons
-      [theme]="'material-dark'"
-      [include]="[
-        'telegram',
-        'whatsapp'
-      ]"
-      [show]="2"
-      [url]="item.url"
-      [autoSetMeta]="false"
-      >
-      </share-buttons>
-    </div>
+  <button (click)="exit.emit()">X</button>
+  <!-- Instead of exit.emit(), parent's method will be called-->
+  <div class="share-btns">
+    <a class="share-btn telegram-share" target="_blank"
+      href="https://telegram.me/share/url?url={{item.url}}&text={{item.name}}"><img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png"></a>
+    <a class="share-btn whatsapp-share" target="_blank"
+    href="https://web.whatsapp.com/send?text={{item.url}}"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png"></a>
+  </div>
 </div>

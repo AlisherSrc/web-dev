@@ -1,35 +1,33 @@
-import { Item } from "../app-product-list/products"
-
 export interface Category{
   id: number,
   name: string,
-  items: Item[]
+  itemsId: number[]
 }
 
 export const categories = [
   {
     id: 1,
     name:"Tech",
-    items: []
+    itemsId: [1,4,6,10]
   },
   {
     id: 2,
     name:"Canteen devices",
-    items: []
+    itemsId: []
   },
   {
     id:3,
     name:"Furniture",
-    items: []
+    itemsId: []
   },
   {
     id:4,
     name:"Hygiene",
-    items: []
+    itemsId: []
   },
   {
     id:5,
     name:"Lens devices",
-    items: []
+    itemsId: []
   }
 ]
