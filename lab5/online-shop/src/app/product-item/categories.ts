@@ -8,26 +8,26 @@ export const categories = [
   {
     id: 1,
     name:"Tech",
-    itemsId: [1,4,6,10]
+    itemsId: [1,4,6,5,10]
   },
   {
     id: 2,
-    name:"Canteen devices",
-    itemsId: []
+    name:"For canteen",
+    itemsId: [3,10]
   },
   {
     id:3,
     name:"Furniture",
-    itemsId: []
+    itemsId: [2,11,12,13,14,15]
   },
   {
     id:4,
     name:"Hygiene",
-    itemsId: []
+    itemsId: [8]
   },
   {
     id:5,
     name:"Lens devices",
-    itemsId: []
+    itemsId: [7]
   }
 ]
