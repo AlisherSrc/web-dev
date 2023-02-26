@@ -148,7 +148,7 @@ export const itemsList: Item[] = [
 
 
   {
-    id: 1,
+    id: 11,
     name: "Смартфон Samsung Galaxy A13 4 ГБ/128 ГБ черный",
     cost: 87411,
     imagesNumber: 1,
@@ -161,7 +161,7 @@ export const itemsList: Item[] = [
     url:"https://kaspi.kz/shop/p/samsung-galaxy-a13-4-gb-128-gb-chernyi-104253279/?c=750000000#!/item"
   },
   {
-    id: 2,
+    id: 12,
     name: "Шкаф 88130, 130x45x175, серый",
     cost: 13374,
     imagesNumber: 1,
@@ -174,7 +174,7 @@ export const itemsList: Item[] = [
     url:"https://kaspi.kz/shop/p/88130-130x45x175-seryi-106609074/?c=750000000&tab=reviews#!/item"
   },
   {
-    id: 3,
+    id: 13,
     name: "Кулер для воды A.E.L. V11s-TC UV черный",
     cost: 949915,
     imagesNumber: 1,
@@ -189,7 +189,7 @@ export const itemsList: Item[] = [
 
 
   {
-    id: 4,
+    id: 14,
     name: "Фитнес-браслет Sigma 24210 бирюзовый",
     cost: 109900,
     imagesNumber: 1,
@@ -203,7 +203,7 @@ export const itemsList: Item[] = [
   },
 
   {
-    id: 5,
+    id: 15,
     name: "Микрофон Shure SM7B черный",
     cost: 302200,
     imagesNumber: 1,
@@ -217,7 +217,7 @@ export const itemsList: Item[] = [
   },
 
   {
-    id: 6,
+    id: 16,
     name: "Графический планшет HUION H610X",
     cost: 81988,
     imagesNumber: 1,
@@ -230,7 +230,7 @@ export const itemsList: Item[] = [
     url:"https://kaspi.kz/shop/p/huion-h610x-103173114/?c=750000000#!/item"
   },
   {
-    id: 7,
+    id: 17,
     name: "Телескоп LEVENHUK Skyline BASE 60T 60x700",
     cost: 108573,
     imagesNumber: 1,
@@ -243,7 +243,7 @@ export const itemsList: Item[] = [
     url:"https://kaspi.kz/shop/p/levenhuk-skyline-base-60t-60x700-100416078/?c=750000000#!/item"
   },
   {
-    id: 8,
+    id: 18,
     name: "Head&Shoulders Ментол шампунь 200 мл",
     cost: 1330,
     imagesNumber: 1,
@@ -256,7 +256,7 @@ export const itemsList: Item[] = [
     url:"https://kaspi.kz/shop/p/head-shoulders-mentol-shampun-200-ml-100189770/?c=750000000#!/item"
   },
   {
-    id: 9,
+    id: 19,
     name: "Набор кистей закругленные белые BOMEIJIA CK-157 12 кистей",
     cost: 1925,
     imagesNumber: 1,
@@ -269,7 +269,7 @@ export const itemsList: Item[] = [
     url:"https://kaspi.kz/shop/p/kistei-zakruglennye-belye-bomeijia-ck-157-12-kistei-103980845/?c=750000000#!/item"
   },
   {
-    id: 10,
+    id: 20,
     name: "Тостер CENTEK СТ-1432 черный",
     cost: 11116,
     imagesNumber: 1,

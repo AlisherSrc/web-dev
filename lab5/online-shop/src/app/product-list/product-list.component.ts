@@ -34,8 +34,12 @@ export class ProductListComponent implements OnChanges {
 
   ngOnChanges() {
     if (this.category) {
-      this.filteredItems = itemsList.filter((item) => item.id in this.category.itemsId)
-      console.log(this.filteredItems)
+      this.filteredItems = itemsList.filter((item) => {
+        // console.log(item.id in this.category.itemsId, item.id)
+        return this.category.itemsId.includes(item.id);
+      })
+
+      console.log(this.category.itemsId)
     } else {
       this.filteredItems = itemsList;
     }
