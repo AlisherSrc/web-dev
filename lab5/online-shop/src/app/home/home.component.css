@@ -10,8 +10,10 @@ main{
 .left-side-bar{
   position: sticky;
   width: 200px;
-  height: 500px;
+  height: 300px;
+  padding: 10px 5px;
   background-color: rgb(210,210,210);
+  border-radius: 5px;
 }
 
 .list-of-items{
@@ -19,6 +21,7 @@ main{
   background-color: rgb(210,210,210);
   height: auto;
   width: 70%;
+  border-radius: 5px;
 }
 
 .left-side-bar li a{

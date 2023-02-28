@@ -1,0 +1,5 @@
+<button class="other-btn" (click)="toggleOtherShow()"><img src="https://cdn-icons-png.flaticon.com/512/7066/7066144.png"></button>
+
+<div *ngIf="otherShow" class="other-box">
+  <a (click)="delete.emit()">Delete</a>
+</div>

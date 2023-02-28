@@ -34,6 +34,11 @@ export class ProductItemComponent{
     this.itemsList = updatedItemsList;
   }
 
+  deleteItem = (itemId : number) => {
+    const updatedItemsList = this.itemsList.filter((product) => product.id != itemId)
+
+    this.itemsList = updatedItemsList;
+  }
 
   nextImg(item : Item){
     const updatedItemsList = this.itemsList.map(product => {

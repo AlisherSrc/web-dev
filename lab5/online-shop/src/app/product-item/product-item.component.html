@@ -1,4 +1,5 @@
 <li *ngFor="let item of itemsList" class="item">
+  <app-other class="other-btn" (delete)="deleteItem(item.id)"></app-other>
 
   <div class="imageBox">
 

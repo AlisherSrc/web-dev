@@ -20,6 +20,7 @@ import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { ProductItemComponent } from './product-item/product-item.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { HomeComponent } from './home/home.component';
+import { OtherComponent } from './other/other.component';
 
 @NgModule({
   // schemas:[
@@ -37,6 +38,7 @@ import { HomeComponent } from './home/home.component';
     ProductItemComponent,
     ProductListComponent,
     HomeComponent,
+    OtherComponent,
 
   ],
 

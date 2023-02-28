@@ -1,0 +1,21 @@
+.other-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.other-btn img{
+  width: 17px;
+  height: 17px;
+}
+
+.other-box{
+  padding: 5px;
+  background-color: rgb(7, 0, 47);
+  color: rgb(228, 228, 228);
+}
+
+.other-box a{
+  cursor: pointer;
+}
+
