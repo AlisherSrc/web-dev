@@ -1,4 +1,4 @@
-img{
+.imageBox img{
   width: 150px;
   height: 250px;
   max-height: 300px;
@@ -93,7 +93,14 @@ img{
 
 
 .like{
-  margin-left: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  left:70%;
+  top:50%;
+  width: 70px;
+  height: 30px;
+
 }
 
 .like-btn{
@@ -103,4 +110,8 @@ img{
 .like-btn img{
   width: 25px;
   height: 25px;
+}
+
+.like-counter{
+
 }
