@@ -1,6 +1,7 @@
 import { Component, ChangeDetectorRef, Input, OnChanges, SimpleChanges} from "@angular/core";
 import { Item } from '../app-product-list/products';
 import { Category } from "./categories";
+import { deletedItemsId } from "../globals";
 
 
 @Component({
@@ -38,6 +39,8 @@ export class ProductItemComponent{
     const updatedItemsList = this.itemsList.filter((product) => product.id != itemId)
 
     this.itemsList = updatedItemsList;
+    deletedItemsId.push(itemId);
+
   }
 
   nextImg(item : Item){

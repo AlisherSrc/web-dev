@@ -305,87 +305,87 @@ export const itemsList: Item[] = [
 
   {
     id: 21,
-    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
-    cost: 2054,
+    name: "Compliment Кофейный скраб для тела 400 мл",
+    cost: 1946,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h07/h1e/32705444413470/compliment-kofejnyj-anticellulitnyj-400-ml-100969140-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hb6/h37/32705453981726/compliment-kofejnyj-anticellulitnyj-400-ml-100969140-2-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h69/hb5/32705464467486/compliment-kofejnyj-anticellulitnyj-400-ml-100969140-3-Container.jpg"
   ], //{number of the image}.jpg
-    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
+    description: "тип кожи: для всех типов тип: скраб вид: гель объем/Количество: 400 страна производства: Россия",
     rating: 5,
     likes: 0,
-    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+    url:"https://kaspi.kz/shop/p/compliment-kofeinyi-skrab-dlja-tela-400-ml-100969140/?c=750000000#!/item"
   },
   {
     id: 22,
-    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
-    cost: 2054,
+    name: "KeraSys Repairing Conditioner кондиционер 400 мл",
+    cost: 2799,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hef/h12/50626486829086/kerasys-vosstanovlenie-400-ml-100377695-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hf5/h8c/61706082910238/kerasys-repairing-conditioner-400-ml-100377695-2.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc3/h7b/61706083368990/kerasys-repairing-conditioner-400-ml-100377695-3.jpg"
   ], //{number of the image}.jpg
-    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
+    description: "тип: кондиционер действие: придание блеска, ,питание, ,восстановление, ,придание эластичности тип волос: сухие, ,ломкие, ,тонкие и поврежденные страна производства: Южная Корея",
     rating: 5,
     likes: 0,
-    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+    url:"https://kaspi.kz/shop/p/kerasys-repairing-conditioner-konditsioner-400-ml-100377695/?c=750000000#!/item"
   },
   {
     id: 23,
-    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
-    cost: 2054,
+    name: "Микроскоп Bresser BioScience Trino 62563 40-1000х",
+    cost: 1154233,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hb6/hf9/66872596103198/bresser-bioscience-trino-62563-40-1000kh-108035297-1.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hf9/ha4/66872596627486/bresser-bioscience-trino-62563-40-1000kh-108035297-2.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5d/hc8/66872597217310/bresser-bioscience-trino-62563-40-1000kh-108035297-3.jpg"
   ], //{number of the image}.jpg
-    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
-    rating: 5,
+    description: "тип: биологический назначение: лабораторный минимальное увеличение: 40 x максимальное увеличение: 1000 x питание: от сети",
+    rating: 0,
     likes: 0,
-    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+    url:"https://kaspi.kz/shop/p/bresser-bioscience-trino-62563-40-1000h-108035297/?c=750000000#!/item"
   },
   {
     id: 24,
-    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
-    cost: 2054,
+    name: "Телескоп Celestron Travel Scope 70x400",
+    cost: 49800,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h6a/h8e/32283781169182/celestron-travel-scope-70x400-black-47100001-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h72/h25/32283782545438/celestron-travel-scope-70x400-black-47100001-2-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h3e/h51/32283784085534/celestron-travel-scope-70x400-black-47100001-3-Container.jpg"
   ], //{number of the image}.jpg
-    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
-    rating: 5,
+    description: "тип: рефрактор диаметр объектива: 70 мм фокусное расстояние объектива: 400 мм установка: напольная/настольная",
+    rating: 4,
     likes: 0,
-    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+    url:"https://kaspi.kz/shop/p/celestron-travel-scope-70x400-47100001/?c=750000000#!/item"
   },
   {
     id: 25,
-    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
-    cost: 2054,
+    name: "Телескоп LEVENHUK 82016 80 мм x 500 мм",
+    cost: 1039920,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc2/h79/65355977818142/levenhuk-82016-80-mm-x-500-mm-107430053-1.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h34/h7f/65355978473502/levenhuk-82016-80-mm-x-500-mm-107430053-2.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hd5/h11/65355979063326/levenhuk-82016-80-mm-x-500-mm-107430053-3.jpg"
   ], //{number of the image}.jpg
-    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
-    rating: 5,
+    description: "тип: рефрактор диаметр объектива: 80 мм фокусное расстояние объектива: 500 мм установка: напольная",
+    rating: 0,
     likes: 0,
-    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+    url:"https://kaspi.kz/shop/p/levenhuk-82016-80-mm-x-500-mm-107430053/?c=750000000#!/item"
   },
   {
     id: 26,
-    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
-    cost: 2054,
+    name: "Kromatech Третья рука MG16129С черный",
+    cost: 8429,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h7c/h34/49905624285214/kromatech-treta-ruka-mg16129s-cernyj-104402913-1.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h93/h73/49905624743966/kromatech-treta-ruka-mg16129s-cernyj-104402913-2.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hd8/h43/49905625202718/kromatech-treta-ruka-mg16129s-cernyj-104402913-3.jpg"
   ], //{number of the image}.jpg
-    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
+    description: "тип: настольная назначение: ювелирная/часовая количество линз: 2 кратность увеличения: 2.5, ,7.5, ,10 диаметр основной линзы: 90 мм материал линзы: пластик",
     rating: 5,
     likes: 0,
-    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+    url:"https://kaspi.kz/shop/p/kromatech-tret-ja-ruka-mg16129s-chernyi-104402913/?c=750000000#!/item"
   },
 
 

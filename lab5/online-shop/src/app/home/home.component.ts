@@ -16,11 +16,12 @@ export class HomeComponent {
   constructor(){
     this.itemsList = itemsList;
     this.categories= categories;
-
   }
 
   setCategory(category : Category){
     this.category = category;
   }
+
+
 
 }
