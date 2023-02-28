@@ -218,70 +218,148 @@ export const itemsList: Item[] = [
 
   {
     id: 16,
-    name: "Графический планшет HUION H610X",
-    cost: 81988,
+    name: "CENTEK CT-0086 Diamond черный",
+    cost: 25458,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hcf/h35/47761692327966/huion-h610x-103173114-1.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/he3/he8/47761692786718/huion-h610x-103173114-2.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h55/h1a/47761693245470/huion-h610x-103173114-3.jpg"
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8c/h4d/31991972003870/centek-ct-0086-diamond-cernyj-belyj-100015452-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hd0/h21/31991974428702/centek-ct-0086-diamond-cernyj-belyj-100015452-2-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h22/hc0/50243979673630/centek-ct-0086-diamond-cernyj-belyj-100015452-3-Container.jpg"
   ], //{number of the image}.jpg
-    description: "Тип: графический планшет Рабочая область: 254х159 мм Чувствительность к нажатию: 8192 Разрешение ввода: 5080 lpi",
+    description: "тип: термопот объем: 5.5 л мощность: 750 Вт материал корпуса: металл фильтр от накипи: Нет цвет: черный",
     rating: 5,
-    url:"https://kaspi.kz/shop/p/huion-h610x-103173114/?c=750000000#!/item"
+    url:"https://kaspi.kz/shop/p/centek-ct-0086-diamond-chernyi-100015452/?c=750000000#!/item"
   },
   {
     id: 17,
-    name: "Телескоп LEVENHUK Skyline BASE 60T 60x700",
-    cost: 108573,
+    name: "Миксер DEXP MX-1400 розовый",
+    cost: 44990,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/had/hed/32979233243166/levenhuk-skyline-base-60t-60x700-100416078-1.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h19/h32/32979242123294/levenhuk-skyline-base-60t-60x700-100416078-2.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hf9/hf8/32979251396638/levenhuk-skyline-base-60t-60x700-100416078-3.jpg"
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hce/h63/52080743743518/dexp-mx-1400-rozovyj-105608160-1.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h69/h9f/52080744202270/dexp-mx-1400-rozovyj-105608160-2.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h48/h7f/52080744661022/dexp-mx-1400-rozovyj-105608160-3.jpg"
   ], //{number of the image}.jpg
-    description: "Тип: рефрактор Диаметр объектива: 60 мм Фокусное расстояние объектива: 700 мм Установка: напольная/настольная",
-    rating: 3,
-    url:"https://kaspi.kz/shop/p/levenhuk-skyline-base-60t-60x700-100416078/?c=750000000#!/item"
+    description: "тип: стационарный мощность: 1400 Вт число скоростей: 6 турборежим: Нет цвет: розовый",
+    rating: 0,
+    url:"https://kaspi.kz/shop/p/dexp-mx-1400-rozovyi-105608160/?c=750000000#!/item"
   },
   {
     id: 18,
-    name: "Head&Shoulders Ментол шампунь 200 мл",
-    cost: 1330,
+    name: "Шоколадный фонтан GASTRORAG CF20C серебристый",
+    cost: 29500,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h24/h70/52274644090910/head-shoulders-2-v-1-mentol-200-ml-100189770-1-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hf4/hcd/46706536251422/head-shoulders-2-v-1-mentol-200-ml-100189770-2.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/he8/h1e/46706536710174/head-shoulders-2-v-1-mentol-200-ml-100189770-3.jpg"
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hce/h3f/62112754630686/gastrorag-cf20c-seryj-102005717-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h47/h4e/47649213218846/gastrorag-cf20c-seryj-102005717-2-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hac/h3b/47649213939742/gastrorag-cf20c-seryj-102005717-3-Container.jpg"
   ], //{number of the image}.jpg
-    description: "Действие: против перхоти, ,очищение Особенности: с кондиционером, ,для чувствительной кожи головы, ,для ежедневного применения Назначение: для женщин Тип волос: для всех типов, ,окрашенные Страна производства: Россия",
-    rating: 5,
-    url:"https://kaspi.kz/shop/p/head-shoulders-mentol-shampun-200-ml-100189770/?c=750000000#!/item"
+    description: "количество ярусов: 4 мощность: 175 Вт загрузка шоколада: 1000 г цвет: серебристый",
+    rating: 4,
+    url:"https://kaspi.kz/shop/p/gastrorag-cf20c-serebristyi-102005717/?c=750000000#!/item"
   },
   {
     id: 19,
-    name: "Набор кистей закругленные белые BOMEIJIA CK-157 12 кистей",
-    cost: 1925,
+    name: "Ollin Professional Perfect Hair 15 в 1 спрей-кондиционер 250 мл",
+    cost: 3150,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hf4/h48/49163335434270/bomeijia-ck-157-12-kistei-103980845-1.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h59/h98/49163335893022/bomeijia-ck-157-12-kistei-103980845-2.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h7c/heb/49163336351774/bomeijia-ck-157-12-kistei-103980845-3.jpg"
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8c/h9d/49612518391838/ollin-perfect-hair-15-v-1-250-ml-100008645-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h0d/49822367580190/ollin-professional-perfect-hair-cream-spray-15-v-1-sprej-krem-250-ml-100008645-2.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hba/h62/49822368038942/ollin-professional-perfect-hair-cream-spray-15-v-1-sprej-krem-250-ml-100008645-3.jpg"
   ], //{number of the image}.jpg
-    description: "Тип: набор кистей Материал: нейлон, ,синтетика Форма пучка: плоская Материал ручки: дерево Номер кисти: 1, ,2, ,3, ,4, ,5, ,6, ,7, ,8, ,9, ,10, ,11, ,12",
+    description: "тип: спрей-кондиционер действие: увлажнение, ,питание объем: 250 особенности: не требует смывания тип волос: для всех типов страна производства: Россия",
     rating: 5,
-    url:"https://kaspi.kz/shop/p/kistei-zakruglennye-belye-bomeijia-ck-157-12-kistei-103980845/?c=750000000#!/item"
+    url:"https://kaspi.kz/shop/p/ollin-professional-perfect-hair-15-v-1-sprei-konditsioner-250-ml-100008645/?c=750000000#!/item"
   },
   {
     id: 20,
-    name: "Тостер CENTEK СТ-1432 черный",
-    cost: 11116,
+    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
+    cost: 2054,
     imagesNumber: 1,
-    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h1f/heb/32725893906462/centek-st-1432-cernyj-100295343-1-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h4a/h69/32725896331294/centek-st-1432-cernyj-100295343-2-Container.jpg",
-            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h23/h52/32725899345950/centek-st-1432-cernyj-100295343-3-Container.jpg"
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
   ], //{number of the image}.jpg
-    description: "Тип управления: механическое Количество тостов: 2 Поддон для крошек: Да Материал корпуса: пластик Цвет: черный",
+    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
     rating: 5,
-    url:"https://kaspi.kz/shop/p/centek-st-1432-chernyi-100295343/?c=750000000#!/item"
+    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
   },
 
+  {
+    id: 21,
+    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
+    cost: 2054,
+    imagesNumber: 1,
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+  ], //{number of the image}.jpg
+    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
+    rating: 5,
+    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+  },
+  {
+    id: 22,
+    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
+    cost: 2054,
+    imagesNumber: 1,
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+  ], //{number of the image}.jpg
+    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
+    rating: 5,
+    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+  },
+  {
+    id: 23,
+    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
+    cost: 2054,
+    imagesNumber: 1,
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+  ], //{number of the image}.jpg
+    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
+    rating: 5,
+    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+  },
+  {
+    id: 24,
+    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
+    cost: 2054,
+    imagesNumber: 1,
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+  ], //{number of the image}.jpg
+    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
+    rating: 5,
+    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+  },
+  {
+    id: 25,
+    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
+    cost: 2054,
+    imagesNumber: 1,
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+  ], //{number of the image}.jpg
+    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
+    rating: 5,
+    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+  },
+  {
+    id: 26,
+    name: "Compliment Naturalis 3в1 с перцем маска 500 мл",
+    cost: 2054,
+    imagesNumber: 1,
+    images: ["https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/ha5/48351550472222/compliment-naturalis-3v1-s-percem-500-ml-100319701-1-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/ha0/48351550668830/compliment-naturalis-3v1-s-percem-500-ml-100319701-2-Container.jpg",
+            "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h68/h16/49837029359646/compliment-naturalis-3v1-s-percem-maska-500-ml-100319701-3.jpg"
+  ], //{number of the image}.jpg
+    description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
+    rating: 5,
+    url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
+  },
 
 
 ]

@@ -13,7 +13,7 @@ export const categories = [
   {
     id: 2,
     name:"For canteen",
-    itemsId: [3,10]
+    itemsId: [3,10,16,17,18]
   },
   {
     id:3,
@@ -23,11 +23,11 @@ export const categories = [
   {
     id:4,
     name:"Hygiene",
-    itemsId: [8]
+    itemsId: [8,19,20,21,22]
   },
   {
     id:5,
     name:"Lens devices",
-    itemsId: [7]
+    itemsId: [7,23,24,25,26]
   }
 ]
