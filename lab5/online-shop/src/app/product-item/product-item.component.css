@@ -90,3 +90,17 @@ img{
 .img-btn-r{
   left: 31em;
 }
+
+
+.like{
+  margin-left: 300px;
+}
+
+.like-btn{
+  cursor: pointer;
+}
+
+.like-btn img{
+  width: 25px;
+  height: 25px;
+}

@@ -17,10 +17,23 @@ export class ProductItemComponent{
   @Input() itemsList !: Item[];
 
   stars:number[] = [1,2,3,4,5]
+  likeCounter : number;
 
   constructor(private cdr:ChangeDetectorRef){
-
+    this.likeCounter = 0;
   }
+
+  incLikes = (itemId : number) => {
+    const updatedItemsList = this.itemsList.map((product) => {
+      if(itemId === product.id){
+        return {...product, likes: product.likes + 1}
+      }else{
+        return product;
+      }
+    })
+    this.itemsList = updatedItemsList;
+  }
+
 
   nextImg(item : Item){
     const updatedItemsList = this.itemsList.map(product => {

@@ -2,11 +2,12 @@
 
   <div class="imageBox">
 
-    <button class="img-btn img-btn-l" (click)="prevImg(item)"><</button>
+    <button class="img-btn img-btn-l" (click)="prevImg(item)">
+      </button>
 
-    <img [src]="item.images[item.imagesNumber - 1]">
+        <img [src]="item.images[item.imagesNumber - 1]">
 
-    <button class="img-btn img-btn-r" (click)="nextImg(item)">></button>
+        <button class="img-btn img-btn-r" (click)="nextImg(item)">></button>
 
   </div>
 
@@ -30,6 +31,10 @@
 
       <app-product-alerts [product]="item" (notify)="onNotify(item.name)" class="notify-btn"></app-product-alerts>
 
+      <div class="like">
+        <a class="like-btn" (click)="incLikes(item.id)"><img src="https://www.freeiconspng.com/thumbs/like-icon-png/black-like-icon-png-13.png"></a>
+        <p class="like-counter">{{item.likes}}</p>
+      </div>
     </div>
 
     <div class="cost-raiting">

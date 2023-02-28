@@ -6,6 +6,7 @@ export interface Item {
   rating: number,
   images: string[],
   imagesNumber: number,
+  likes: number,
   url: string
 }
 
@@ -22,6 +23,7 @@ export const itemsList: Item[] = [
     ], //{number of the image}.jpg
     description: "Технология NFC\n Цвет: черный \nТип экрана: PLS TFT LCD сенсорный, мультитач \nДиагональ: 6.6 дюйм \nРазмер оперативной памяти: 4 ГБ \nПроцессор: 8-ядерный Exynos 850 \nОбъем встроенной памяти: 128 ГБ Емкость аккумулятора: 5000 мАч",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/samsung-galaxy-a13-4-gb-128-gb-chernyi-104253279/?c=750000000#!/item"
   },
   {
@@ -35,6 +37,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "    Тип установки: напольный Материал: металл, ,пластик, ,ткань Ширина, см: 130 Глубина, см: 45 Высота, см: 175 Цвет: серый Страна: Китай",
     rating: 4,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/88130-130x45x175-seryi-106609074/?c=750000000&tab=reviews#!/item"
   },
   {
@@ -48,6 +51,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "Тип: пурифайер Установка: настольный Тип охлаждения: компрессорное Установка бутылки: отсутствует Подключение к водопроводу: Да Цвет: черный",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/a-e-l-v11s-tc-uv-chernyi-108819584/?c=750000000#!/item"
   },
 
@@ -63,6 +67,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "    Поддержка платформ: Android, ,iOS Материал корпуса: нерж. сталь Цвет корпуса: черный Интерфейсы: USB",
     rating: 0,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/sigma-24210-birjuzovyi-105170150/?c=750000000#!/item"
   },
 
@@ -77,6 +82,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "Тип: динамический Конструкция: подвесной Назначение: для студии Тип подключения: проводной Радиосистема: Нет Разъемы: XLR Цвет: черный",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/shure-sm7b-chernyi-22400184/?c=750000000#!/item"
   },
 
@@ -91,6 +97,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "Тип: графический планшет Рабочая область: 254х159 мм Чувствительность к нажатию: 8192 Разрешение ввода: 5080 lpi",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/huion-h610x-103173114/?c=750000000#!/item"
   },
   {
@@ -104,6 +111,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "Тип: рефрактор Диаметр объектива: 60 мм Фокусное расстояние объектива: 700 мм Установка: напольная/настольная",
     rating: 3,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/levenhuk-skyline-base-60t-60x700-100416078/?c=750000000#!/item"
   },
   {
@@ -117,6 +125,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "Действие: против перхоти, ,очищение Особенности: с кондиционером, ,для чувствительной кожи головы, ,для ежедневного применения Назначение: для женщин Тип волос: для всех типов, ,окрашенные Страна производства: Россия",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/head-shoulders-mentol-shampun-200-ml-100189770/?c=750000000#!/item"
   },
   {
@@ -130,6 +139,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "Тип: набор кистей Материал: нейлон, ,синтетика Форма пучка: плоская Материал ручки: дерево Номер кисти: 1, ,2, ,3, ,4, ,5, ,6, ,7, ,8, ,9, ,10, ,11, ,12",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/kistei-zakruglennye-belye-bomeijia-ck-157-12-kistei-103980845/?c=750000000#!/item"
   },
   {
@@ -143,6 +153,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "Тип управления: механическое Количество тостов: 2 Поддон для крошек: Да Материал корпуса: пластик Цвет: черный",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/centek-st-1432-chernyi-100295343/?c=750000000#!/item"
   },
 
@@ -158,6 +169,7 @@ export const itemsList: Item[] = [
     ], //{number of the image}.jpg
     description: "тип: приставной форма: прямоугольный материал: ЛДСП длина, см: 47 ширина, см: 30 высота, см: 60 цвет: белый страна: Казахстан",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/letta-734063-47x30x60-106500912/?c=750000000#!/item"
   },
   {
@@ -171,6 +183,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: пуф форма: квадратная материал: МДФ, ,дерево обивка: велюр высота, см: 45 ширина, см: 35 глубина, см: 30 цвет: бежевый, ,слоновая кость страна: Казахстан",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/mebelvsem-slonovaja-kost-987653-puf-mdf-derevo-35x30x45-sm-104262274/?c=750000000#!/item"
   },
   {
@@ -184,6 +197,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: трансформер форма: прямоугольный материал: ЛДСП длина, см: 300 ширина, см: 100 высота, см: 78 цвет: белый страна: Казахстан",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/transformers-komfort-1-300x100x78-sm-104220696/?c=750000000#!/item"
   },
 
@@ -199,6 +213,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: отдельностоящий материал: МДФ, ,ЛДСП длина, см: 210 ширина, см: 49 высота, см: 86 цвет: серый, ,светло серыйстрана: Турция",
     rating: 0,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/konsol-florya-konsol-210x49x86-sm-mdf-ldsp-seryi-svetlo-seryi-106756228/?c=750000000#!/item"
   },
 
@@ -213,6 +228,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "комплектация: шкаф, ,полка, ,тумба под телевизор основной материал: ЛДСП особенности: Белый Бетон, Ручки ABS пластик с покрытием софт. Стекло 4 мм на фасаде, полки прозрачные с обработкой. общий размер: 187.2х264.8x45.6 см цвет: белый, ,серый страна: Россия",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/gorizont-del-ta-stenka-ldsp-264-8x45-6x187-2-sm-104179007/?c=750000000#!/item"
   },
 
@@ -227,6 +243,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: термопот объем: 5.5 л мощность: 750 Вт материал корпуса: металл фильтр от накипи: Нет цвет: черный",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/centek-ct-0086-diamond-chernyi-100015452/?c=750000000#!/item"
   },
   {
@@ -240,6 +257,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: стационарный мощность: 1400 Вт число скоростей: 6 турборежим: Нет цвет: розовый",
     rating: 0,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/dexp-mx-1400-rozovyi-105608160/?c=750000000#!/item"
   },
   {
@@ -253,6 +271,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "количество ярусов: 4 мощность: 175 Вт загрузка шоколада: 1000 г цвет: серебристый",
     rating: 4,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/gastrorag-cf20c-serebristyi-102005717/?c=750000000#!/item"
   },
   {
@@ -266,6 +285,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: спрей-кондиционер действие: увлажнение, ,питание объем: 250 особенности: не требует смывания тип волос: для всех типов страна производства: Россия",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/ollin-professional-perfect-hair-15-v-1-sprei-konditsioner-250-ml-100008645/?c=750000000#!/item"
   },
   {
@@ -279,6 +299,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
   },
 
@@ -293,6 +314,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
   },
   {
@@ -306,6 +328,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
   },
   {
@@ -319,6 +342,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
   },
   {
@@ -332,6 +356,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
   },
   {
@@ -345,6 +370,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
   },
   {
@@ -358,6 +384,7 @@ export const itemsList: Item[] = [
   ], //{number of the image}.jpg
     description: "тип: маска действие: против выпадения волос, ,активация роста, ,укрепление тип волос: для всех типов, ,окрашенные, ,тонкие и поврежденные",
     rating: 5,
+    likes: 0,
     url:"https://kaspi.kz/shop/p/compliment-naturalis-3v1-s-pertsem-maska-500-ml-100319701/?c=750000000#!/item"
   },
 
