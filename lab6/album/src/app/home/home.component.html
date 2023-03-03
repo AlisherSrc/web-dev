@@ -1,11 +1,22 @@
 <main>
   <div class="container content-container-1">
-    <h2>SHAPING MEMORIES TOGETHER</h2>
-    <h3>Save and Share your experiences. Let's have fun together.</h3>
+    <div class="container-1-text">
+      <h2>SHAPING MEMORIES</h2>
+      <h3>Save and Share your experiences. Let's have fun together!</h3>
+    </div>
     <button class="btn">Start</button>
   </div>
   <div class="container content-container-2">
     <p>You can save your photos in albums privately,<br>or exchange memories with the world!</p>
+    <div class="scroll-cover-cover">
+      <div class="scroll-cover">
+        <div class="scroll-images">
+          <div class="scroll-item" *ngFor="let image of scrollImages">
+            <img class="scroll-img" src={{image}}>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="container content-container-3">
     <h2>Create an album</h2>
