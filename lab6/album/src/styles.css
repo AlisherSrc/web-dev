@@ -2,4 +2,18 @@
 * {
   padding: 0;
   margin: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+:root{
+  --yellow:#FAE105;
+  --swamp: #B3D604;
+  --light-green: #56ED11;
+  --dark-green: #04D627;
+  --turquoise: #43FAAE;
+  --text-color-1:rgb(32, 36, 21);
+}
+
+a{
+  text-decoration: none;
 }

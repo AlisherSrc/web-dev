@@ -1,0 +1,34 @@
+
+nav{
+  background-color: var(--swamp);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color:var(--text-color-1);
+  cursor: pointer;
+}
+
+.nav-content{
+  display: flex;
+  width: 95%;
+  height: 35px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul{
+  width: 150px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.title{
+  font-size: 20px;
+}
+
+.options{
+  font-size: 17px;
+}
