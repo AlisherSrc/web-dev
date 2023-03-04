@@ -1,0 +1,23 @@
+main{
+  position: relative;
+  height: 90vh;
+}
+
+.content{
+  position: relative;
+  height: 100%;
+}
+
+.album{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.album h1{
+  font-size: 2em;
+}
+.album a{
+  font-size: 1.5em;
+}

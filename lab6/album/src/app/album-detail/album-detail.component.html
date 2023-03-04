@@ -1,1 +1,14 @@
-<p>album-detail works!</p>
+<main>
+  <div *ngIf="loaded" class="content">
+    <button routerLink="/albums">Go back</button>
+
+    <div class="album">
+      <h1>{{album.title}}</h1>
+      <a routerLink="/albums/{{album.id}}/photos">Go to the photos</a>
+    </div>
+  </div>
+
+  <div *ngIf="!loaded">
+    Loading
+  </div>
+</main>
