@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { AlbumsComponent } from './albums/albums.component';
 import { AlbumDetailComponent } from './album-detail/album-detail.component';
 import { AlbumPhotosComponent } from './album-photos/album-photos.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
@@ -13,7 +14,7 @@ const routes: Routes = [
   {path:'albums/:id',component:AlbumDetailComponent},
   {path:'albums/:id/photos',component:AlbumPhotosComponent},
   {path: '',redirectTo:'home',pathMatch:'full'},
-  {path:'**',component:HomeComponent} // If path is not valid, then it will redirect to home component
+  {path:'**',component:NotFoundComponent} // If path is not valid, then it will redirect to home component
 ];
 
 @NgModule({

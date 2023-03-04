@@ -1,0 +1,9 @@
+.albums{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+}
+
+.album{
+  padding: 10px;
+}
