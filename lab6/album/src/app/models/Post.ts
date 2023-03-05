@@ -1,4 +1,4 @@
 export interface Album{
   id:number,
-  title:number
+  title:string;
 }

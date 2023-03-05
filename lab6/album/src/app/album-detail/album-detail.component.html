@@ -4,7 +4,7 @@
 
     <div class="album">
       <div class="title">
-        <input *ngIf="editTitleMode" class="input-text" type="text">
+        <input *ngIf="editTitleMode" [(ngModel)]="album.title" class="input-text"  (change)="deactivateEditMode()" type="text">
         <h1 *ngIf="!editTitleMode">{{album.title}}</h1>
         <img (click)="activateEditMode()" class="edit-icon" src="https://www.freeiconspng.com/thumbs/edit-icon-png/edit-new-icon-22.png">
       </div>

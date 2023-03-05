@@ -11,6 +11,7 @@ import { AlbumPhotosComponent } from './album-photos/album-photos.component';
 import { NavComponent } from './nav/nav.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     // Adding HttpClientModule to provide the HttpClient service to any component or service that requests it through dependency injection.
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

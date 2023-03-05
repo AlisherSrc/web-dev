@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { AlbumsService } from '../albums.service';
 import { Album } from '../models/Post';
 import { ActivatedRoute } from '@angular/router';
@@ -11,13 +11,13 @@ export class AlbumDetailComponent implements OnInit {
   album: Album;
   loaded: boolean;
   editTitleMode : boolean;
+  inputTextTitle !: string;
 
   constructor(private albumService: AlbumsService,
               private route: ActivatedRoute) {
     this.album = {} as Album;
     this.loaded = true;
     this.editTitleMode = false;
-
   }
 
   ngOnInit(): void {
@@ -40,4 +40,9 @@ export class AlbumDetailComponent implements OnInit {
   activateEditMode(){
     this.editTitleMode = true;
   }
+
+  deactivateEditMode(){
+    (this.album.title.trim().length != 0) && (this.editTitleMode = false);
+  }
+
 }
