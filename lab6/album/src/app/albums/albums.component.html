@@ -4,6 +4,7 @@
     <div class="albums">
       <div class="album" *ngFor="let album of albums">
         <a routerLink="/albums/{{album.id}}">{{album.title}}</a>
+        <button class="trash-icon"><img src="https://cdn-icons-png.flaticon.com/512/2891/2891491.png"></button>
       </div>
     </div>
   </div>

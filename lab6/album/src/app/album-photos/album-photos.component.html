@@ -1,1 +1,12 @@
-<p>album-photos works!</p>
+<main>
+  <div *ngIf="loaded" class="photos">
+    <div class="photo" *ngFor="let photo of photos">
+      <img src="{{photo.url}}">
+      <p>{{photo.title}}</p>
+    </div>
+  </div>
+
+  <div *ngIf="!loaded" class="non-loaded">
+    Loading
+  </div>
+</main>

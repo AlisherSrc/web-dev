@@ -28,15 +28,48 @@
 }
 
 .content-container-2{
-  background-color: var(--light-green);
+  /* background-color: var(--light-green); */
+  background-image: linear-gradient(270grad,rgb(16, 68, 127),var(--turquoise));
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.content-container-2 p{
+  align-self: center;
+  font-size: 2em;
 }
 .content-container-3{
-  background-color: var(--dark-green);
+  background-color: rgb(42, 102, 114);
+  display: flex;
+  justify-content: space-around;
+  padding:20px
 }
+
+
+.builder-column-1 img{
+  width: 500px;
+  height: 700px;
+}
+
+.builder-column-2{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.builder-column-2 .btn{
+  margin-top: 25%;
+}
+
+
 .btn{
   background-color: var(--turquoise);
   border: none;
   border-radius: 5px;
+  min-width: 100px;
+  min-height: 30px;
   width: 10%;
   height: 5%;
 }

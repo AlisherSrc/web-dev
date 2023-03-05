@@ -10,11 +10,14 @@ import { ActivatedRoute } from '@angular/router';
 export class AlbumDetailComponent implements OnInit {
   album: Album;
   loaded: boolean;
+  editTitleMode : boolean;
 
   constructor(private albumService: AlbumsService,
               private route: ActivatedRoute) {
     this.album = {} as Album;
     this.loaded = true;
+    this.editTitleMode = false;
+
   }
 
   ngOnInit(): void {
@@ -32,5 +35,9 @@ export class AlbumDetailComponent implements OnInit {
         this.loaded = true;
       })
     })
+  }
+
+  activateEditMode(){
+    this.editTitleMode = true;
   }
 }
