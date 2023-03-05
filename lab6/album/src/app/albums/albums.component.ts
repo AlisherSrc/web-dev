@@ -31,4 +31,10 @@ export class AlbumsComponent implements OnInit{
       // as soon as it loads we change it
     })
   }
+
+  deleteAlbum(id : number){
+    const newAlbums = this.albums.filter((album) => (album.id != id));
+
+    this.albums = newAlbums;
+  }
 }
